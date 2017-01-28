@@ -7,90 +7,108 @@
     	<meta name="author" content="Gabriel Daudin">
 
 			<!-- boostrap css-->
-    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    	<link rel="stylesheet" href="lib/bootstrap/bootstrap-3.3.7.min.css" type="text/css">
 
 			<!--fontawesome-->
 			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     	<!-- custom css -->
     	<link href="style/style.css" rel="stylesheet">
+
+
 	</head>
 
 	<body>
 
-		<!-- wrap bs-->
-	  <div class="container">
-
-				<!--moi-->
-				<header class="culture">
-					<div class="row culture">
-						<div class="col"></div>
-			      	<div class="col-lg-8 col align-self-center">
-									<h1>Gabriel Daudin</h1>
-							</div>
+		<!-- Navigation -->
+		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+				<div class="container">
+						<!-- Brand and toggle get grouped for better mobile display -->
+						<div class="navbar-header page-scroll">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+										<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+								</button>
+								<a class="navbar-brand" href="#page-top">Start Bootstrap</a>
 						</div>
+
+						<!-- Collect the nav links, forms, and other content for toggling -->
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+								<ul class="nav navbar-nav navbar-right">
+										<li class="hidden">
+												<a href="#page-top"></a>
+										</li>
+										<li class="page-scroll">
+												<a href="#portfolio">Portfolio</a>
+										</li>
+										<li class="page-scroll">
+												<a href="#about">About</a>
+										</li>
+										<li class="page-scroll">
+												<a href="#contact">Contact</a>
+										</li>
+								</ul>
+						</div>
+						<!-- /.navbar-collapse -->
+				</div>
+				<!-- /.container-fluid -->
+		</nav>
+
+		<!-- header-->
+		<header class="cream">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-4">
+						<img class="avatar rounded-circle mt-2" src="img/moi.png" alt="Photo cv" title="Photo cv"/>
 					</div>
+					<div class="col-md-4">
+						<h1>Gabriel Daudin</h1>
+				</div>
+			</div>
+		</header>
 
-					<div class="row culture">
-						<div class="col-lg-2">
-							<img class="avatar rounded-circle mt-2" src="img/moi.png" alt="Photo cv" />
-						</div>
+    <!-- Intitule -->
+    <section class="culture">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-4 text-center">
+	      		<p class="h2">
+							<i class="fa fa-laptop" aria-hidden="true"></i><br />
+							Développeur logiciel
+						</p>
 					</div>
-				</header>
-
-    		<!-- Intitule -->
-    		<section class="culture">
-					<div class="container-fluid">
-
-						<div class="row">
-							<div class="col-sm-6 text-center">
-	        			<p class="h2">
-									<i class="fa fa-laptop" aria-hidden="true"></i><br />
-									Développeur logiciel
-								</p>
-							</div>
-							<div class="col-sm-6 text-center">
-	        			<p class="h2">
-									<i class="fa fa-lightbulb-o" aria-hidden="true"></i><br />
-									Ingénieur agronome
-								<p>
-							</div>
-						</div>
+					<div class="col-md-4 text-center">
+	      		<p class="h2">
+							<i class="fa fa-lightbulb-o" aria-hidden="true"></i><br />
+							Ingénieur agronome
+						<p>
 					</div>
+				</div>
+			</div>
+		</section>
 
-				</section>
+		<!-- Présentation -->
+		<section class="culture">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-4 text-center">
+						<p class="text-center display-4"><i class="fa fa-gears" aria-hidden="true"></i></p>
+						<p>
+							Formé à l'ingénierie dans les métiers de l'agronomie.
+							5 ans d'expérience dans le montage de projet, la coordination d'acteurs dans des insitutions publiques ou privées.
+						</p>
+					</div>
+					<div class="col-md-4 text-center">
+						<p class="text-center display-4"><i class="fa fa-code" aria-hidden="true"></i></p>
+						<p>
+							Autodidacte en informatique sur différentes plateformes (windows, linux) et différents langages,
+							actuellement en formation développeur logiciel à Nantes.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
 
-				<!-- Présentation -->
-				<section class="expresso">
-						<div class="container-fluid">
-							<!--
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h2>Développeur logiciel, Ingénieur agronome</h2>
-								</div>
-							</div>
-						-->
-							<div class="row">
-								<div class="col-sm-6">
-									<p class="text-center display-4"><i class="fa fa-gears" aria-hidden="true"></i></p>
-									<p>
-										Formé à l'ingénierie dans les métiers de l'agronomie.
-										5 ans d'expérience dans le montage de projet, la coordination d'acteurs dans des insitutions publiques ou privées.
-									</p>
-								</div>
-								<div class="col-sm-6">
-									<p class="text-center display-4"><i class="fa fa-code" aria-hidden="true"></i></p>
-									<p>
-										Autodidacte en informatique sur différentes plateformes (windows, linux) et différents langages,
-										actuellement en formation développeur logiciel à Nantes.
-									</p>
-								</div>
-							</div>
-						</div>
-
-					</section>
-
-    		<!--Développeur web-->
+		<!--Développeur web-->
 				<section class="ct-bg-color2 ct-txt-color2">
 						<div class="container-fluid">
 
@@ -193,8 +211,7 @@
 		</div>
 
 		<!-- inclusion js bootstrap -->
-		<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+		<script src="lib/jquery/jquery-1.12.4.min.js"></script>
+		<script src="lib/bootstrap/bootstrap-3.3.7.min.js"></script>
 	</body>
 </html>
