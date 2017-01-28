@@ -1,0 +1,72 @@
+/* FORMAT COMMUN */
+html, body {
+	height: 100%;
+}
+
+.br {
+	border:1px solid red;
+}
+/* couleurs de fond */
+.inactive {
+	background-color: #eee;
+	color: #fff;
+}
+
+.dark {
+	background-color: #303030;
+	color: #fff;
+}
+
+.coffee {
+	background-color:#4b3832;
+	color: white;
+}
+
+.expresso {
+	background-color:#fff;
+	color: #3c2f2f;
+}
+
+.cream {
+	background-color: #3c2f2f;
+	color: #be9b7b;
+}
+
+.culture {
+	background-color: #6dc066;
+	color: #fff;
+}
+
+/* couleurs de blocs */
+.block1{
+	background: #18BC9C;
+	color: #fff;
+}
+/* Couleurs de bordure */
+.ct-border-colorMain {
+	border: 1px solid #555;
+}
+
+/*avatar */
+img.avatar{
+    width:100%;
+    height: auto;
+    max-height: 150px;
+    max-width: 150px;
+    overflow:hidden;
+}
+
+/* RESPONSIVE */
+section {
+  padding: 50px 0;
+}
+
+section h1, section h2 {
+  margin: 0;
+	margin-bottom: 50px;
+  font-size: 3em !important;
+}
+
+section p {
+
+}
