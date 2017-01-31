@@ -6,208 +6,515 @@
     	<meta name="description" content="CV Gabriel Daudin">
     	<meta name="author" content="Gabriel Daudin">
 
-			<!-- boostrap css-->
+		<!-- boostrap css-->
     	<link rel="stylesheet" href="lib/bootstrap/bootstrap-3.3.7.min.css" type="text/css">
 
-			<!--fontawesome-->
-			<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<!--fontawesome-->
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     	<!-- custom css -->
     	<link href="style/style.css" rel="stylesheet">
 
-
 	</head>
 
-	<body>
+	<body id="page-top">
 
 		<!-- Navigation -->
-		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-				<div class="container">
-						<!-- Brand and toggle get grouped for better mobile display -->
-						<div class="navbar-header page-scroll">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-										<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-								</button>
-								<a class="navbar-brand" href="#page-top">Start Bootstrap</a>
-						</div>
-
-						<!-- Collect the nav links, forms, and other content for toggling -->
-						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-								<ul class="nav navbar-nav navbar-right">
-										<li class="hidden">
-												<a href="#page-top"></a>
-										</li>
-										<li class="page-scroll">
-												<a href="#portfolio">Portfolio</a>
-										</li>
-										<li class="page-scroll">
-												<a href="#about">About</a>
-										</li>
-										<li class="page-scroll">
-												<a href="#contact">Contact</a>
-										</li>
-								</ul>
-						</div>
-						<!-- /.navbar-collapse -->
+		<nav id="mainNav" class="navbar navbar-fixed-top">
+			<div class="container">
+				<!-- brand & bouton toggle -->
+				<div class="navbar-header page-scroll">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-responsive">
+						<span class="sr-only">Menu</span> Menu <i class="fa fa-bars"></i>
+					</button>
+					<a class="navbar-brand" href="#page-top">Gabriel Daudin</a>
 				</div>
-				<!-- /.container-fluid -->
+
+				<!-- Menu responsive -->
+				<div class="collapse navbar-collapse" id="menu-responsive">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="page-scroll">
+							<a href="#portfolio">Web</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#about">Programmation</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#contact">Projets</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#contact">Parcours</a>
+						</li>
+						<li class="page-scroll">
+							<a href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
 		</nav>
 
 		<!-- header-->
-		<header class="cream">
+		<header>
 			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-4">
-						<img class="avatar rounded-circle mt-2" src="img/moi.png" alt="Photo cv" title="Photo cv"/>
+				
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<img class="avatar rounded-circle vignette" src="img/moi.png" alt="Photo cv" title="Photo cv"/>
 					</div>
-					<div class="col-md-4">
-						<h1>Gabriel Daudin</h1>
+					<div class="col-md-6">
+						<h1 class="title">Gabriel Daudin</h1>
+						<p class="subtitle">Ingénieur & développeur</p>
+						<p class="localisation">30 ans, habite à Nantes (44)</p>
+					</div>
+
+					<div class="col-md-6">
+		      			<p class="description">
+							Ingénieur de formation, je me reconverti depuis 2017 dans le développement logiciel.
+						</p>
+						<p class="description">
+							Autodidacte, j'ai débuté l'informatique il y a 10 ans et parcouru la programmation depuis le langage C jusq'aux langages web, en passant par le java ...
+						</p>
+					</div>
 				</div>
+
 			</div>
 		</header>
 
-    <!-- Intitule -->
-    <section class="culture">
+		<!--Timeline-->
+		<section class="calm">
 			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-4 text-center">
-	      		<p class="h2">
-							<i class="fa fa-laptop" aria-hidden="true"></i><br />
-							Développeur logiciel
+
+				<div class="row">
+					<div class="col-12">
+						<ul class="timeline">
+							<!--hmtl/css-->
+							<li>
+          						<div class="timeline-badge info">
+          							2003
+          						</div>
+          						<div class="timeline-panel">
+            						<div class="timeline-heading text-center">
+            							Langages web
+            						</div>
+          							<div class="timeline-body">
+          								<p class="technos text-center">
+          									<img src="img/logo_html.svg" alt="Langages HTML & CSS" title="Langages HTML & CSS"/>
+          									<img src="img/logo_php.png" alt="Langages HTML & CSS" title="Langages HTML & CSS"/>
+          								</p>
+          								<p>
+          									J'ai débuté en 2006 avec le langage HTML accompagné du CSS, rapidement suivi de la combinaison PHP / Mysql.
+          								</p>
+          							</div>
+          						</div>
+        					</li>
+        					<!--C-->
+        					<li >
+          						<div class="timeline-badge warning">
+          							2004
+          						</div>
+          						<div class="timeline-panel">
+            						<div class="timeline-heading text-center">
+            							Langage C / C++
+            						</div>
+          							<div class="timeline-body">
+          								Avec l'envie de comprendre plus en détail le fonctionnement d'un langage de programmation, je me suis tourné vers le C où j'ai pris beaucoup de plaisir.
+          								<br />
+          								J'ai ensuite enchainé sur le C++ et abordé la programmation orientée objet.
+          							</div>
+          						</div>
+        					</li>
+        					<!--projet C-->
+        					<li class="timeline-inverted">
+          						<div class="timeline-badge danger">
+          							2004
+          						</div>
+          						<div class="timeline-panel projet">
+          							<div class="zoom">
+	          							<a href="#modal_c" data-toggle="modal">
+						      				<i class="fa fa-search-plus fa-3x"></i>
+						      			</a>
+					      			</div>
+            						<div class="timeline-heading text-center">
+            							mini RPG Like en C
+            						</div>
+          							<div class="timeline-body">
+          								<p>
+          									Pour mon loisir personnel, j'ai entrepris de réaliser un programme mimant un rpg avec la carte, les graphismes et le déplacement des personnages.
+          								</p>
+          								<p class="more">
+          									Cliquez pour en savoir plus
+          								</p>
+          							</div>
+          						</div>
+        					</li>
+        					<!--ingénieur agronome-->
+        					<li>
+          						<div class="timeline-badge success">
+          							2010
+          						</div>
+          						<div class="timeline-panel">
+            						<div class="timeline-heading text-center">
+            							Ingénieur agronome
+              						</div>
+          							<div class="timeline-body">
+          								<p>
+          									Diplômé en 2010 en ingénierie de l'agriculture, école Montpellier Supagro
+              							</p>
+              						</div>
+          						</div>
+        					</li>
+        					<!--java-->
+        					<li>
+          						<div class="timeline-badge warning">
+          							2011
+          						</div>
+          						<div class="timeline-panel">
+            						<div class="timeline-heading text-center">
+            							Langage Java
+            						</div>
+          							<div class="timeline-body">
+          								<p class="technos text-center">
+          									<img src="img/logo_java.png" alt="langage java" title="langage java" />
+          								</p>
+          								<p>
+          									Un incontournable. Dans le cadre d'un projet d'applet java, je me suis tourné vers ce langage afin d'intégrer de l'interactivité à un site web personnel. Hélas les codes sources sont perdus...
+          								</p>
+          							</div>
+          						</div>
+        					</li>
+        					<!--jquery-->
+        					<li>
+          						<div class="timeline-badge info">
+          							2012
+          						</div>
+          						<div class="timeline-panel">
+            						<div class="timeline-heading text-center">
+            							Framework JQuery
+            						</div>
+
+          							<div class="timeline-body">
+          								<p class="technos text-center">
+          									<img src="img/logo_jquery.png" alt="Framework JQuery" title="Framework JQuery" /> 
+          								</p>
+          								<p>
+          									A l'occasion d'un projet commun, un ami m'a fait découvrir Jquery ainsi que les requêtes ajax, la voie vers des applications modernes s'ouvrait devant moi.
+          								</p>
+          							</div>
+            						
+          						</div>
+        					</li>
+        					<!--bootstrap-->
+        					<li>
+          						<div class="timeline-badge info">
+          							2013
+          						</div>
+          						<div class="timeline-panel">
+          							<div class="timeline-heading text-center">
+            							Framework Bootstrap
+            						</div>
+          							<div class="timeline-body">
+          								<p class="technos text-center">
+          									<img src="img/logo_bootstrap.png" alt="Framework bootstrap" title="Framework bootstrap" />
+          								</p>
+          								<p>
+          									Les framework de mise en page ont suivi tout naturellement, afin de moderniser la présentation de mes réalisations et d'entrer dans le responsive design.
+          								</p>
+          							</div>
+          						</div>
+        					</li>
+        					<!--angular-->
+        					<li>
+          						<div class="timeline-badge info">
+          							2014
+          						</div>
+          						<div class="timeline-panel">
+            						<div class="timeline-heading text-center">
+            							Framework Angular Js
+            						</div>
+          							<div class="timeline-body">
+          								<p class="technos text-center">
+          									<img src="img/logo_angular.png" alt="Framework angular JS" title="Framework angular JS"/>
+          								</p>
+          								<p>
+          									Avec l'envie de développer une application embarquée sur téléphone mobile, j'ai découvert ionic et le framework Angular. 
+          								</p>
+          							</div>
+          						</div>
+        					</li>
+        					<!--seame-->
+        					<li class="timeline-inverted">
+          						<div class="timeline-badge danger">
+          							2015
+          						</div>
+          						<div class="timeline-panel projet">
+          							<div class="zoom">
+	          							<a href="#modal_seame" data-toggle="modal">
+						      				<i class="fa fa-search-plus fa-3x"></i>
+						      			</a>
+					      			</div>
+          							<div class="timeline-heading">
+          								Application smartphone Sea.me
+          							</div>
+          							<div class="timeline-body">
+          								<p class="more">
+          									Cliquez pour en savoir plus
+          								</p>
+          							</div>
+          						</div>
+        					</li>
+        					<!--geoviti-->
+        					<li class="timeline-inverted">
+          						<div class="timeline-badge danger">
+          							2016
+          						</div>
+          						<div class="timeline-panel projet">
+          							<div class="zoom">
+	          							<a href="#modal_geoviti" data-toggle="modal">
+						      				<i class="fa fa-search-plus fa-3x"></i>
+						      			</a>
+					      			</div>
+          							<div class="timeline-heading">
+          								Application smartphone Geoviti
+          							</div>
+          							<div class="timeline-body">
+          								<p class="more">
+          									Cliquez pour en savoir plus
+          								</p>
+          							</div>
+          						</div>
+        					</li>
+        					<!--IMIE-->
+        					<li>
+          						<div class="timeline-badge success">
+          							2017
+          						</div>
+          						<div class="timeline-panel">
+          							<div class="timeline-heading text-center">
+          								<strong>Formation Développeur Logiciel</strong>
+          							</div>
+          							<div class="timeline-body">
+          								<p class="technos text-center">
+          									<img src="img/logo_knackcss.png" alt="Framework Knackcss" title="Framework Knackcss" />
+          									<img src="img/logo_symfony.png" alt="Framework Knackcss" title="Framework Knackcss" />
+          									<img src="img/logo_nodejs.svg" alt="Framework Knackcss" title="Framework Knackcss" />
+          								</p>
+          								<p>
+          									A l'occasion de ma reconversion, cette formation me permet d'apprendre le travail d'équipe en informatique, de conforter mes bases et d'apprendre de nouveaux frameworks.
+          								</p>
+          							</div>
+          						</div>
+        					</li>
+						</ul>
+					</div>
+				
+				</div>
+			</div>
+		</section>
+
+		<!--Complément-->
+		<section class="stable text-larger">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<h2>Et aussi...</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<h3>Langues</h3>
+						<p>
+							Anglais courant
 						</p>
 					</div>
-					<div class="col-md-4 text-center">
-	      		<p class="h2">
-							<i class="fa fa-lightbulb-o" aria-hidden="true"></i><br />
-							Ingénieur agronome
+					<div class="col-md-6 text-center">
+						<h3>En savoir plus sur moi</h3>
 						<p>
+							Profil linkedin : <a href="https://fr.linkedin.com/in/gabriel-daudin-2223217b">Linkedin</a>
+						</p>
+						<p>
+							CV complet : <a href="">Lien cv</a>
+						</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!-- Présentation -->
-		<section class="culture">
+		<!--Contact-->
+		<section class="text-larger">
 			<div class="container">
-				<div class="row justify-content-center">
-					<div class="col-md-4 text-center">
-						<p class="text-center display-4"><i class="fa fa-gears" aria-hidden="true"></i></p>
-						<p>
-							Formé à l'ingénierie dans les métiers de l'agronomie.
-							5 ans d'expérience dans le montage de projet, la coordination d'acteurs dans des insitutions publiques ou privées.
-						</p>
+
+				<div class="row">
+					<div class="col-sm-12 text-center">
+						<h2>Me contacter</h2>
 					</div>
-					<div class="col-md-4 text-center">
-						<p class="text-center display-4"><i class="fa fa-code" aria-hidden="true"></i></p>
+				</div>
+
+				<div class="row">
+					<div class="col-md-6 text-center">
+						<a href="mailto:gabriel.daudin@nantes.imie.fr">
+							<i class="fa fa-envelope icone-large"></i>
+						</a>
+					</div>
+					<div class="col-md-6">
 						<p>
-							Autodidacte en informatique sur différentes plateformes (windows, linux) et différents langages,
-							actuellement en formation développeur logiciel à Nantes.
+							Si vous êtes intéressé, n'hésitez pas à me contacter par mail :
+							<a href="mailto:gabriel.daudin@nantes.imie.fr">gabriel.daudin@nantes.imie.fr</a>
 						</p>
 					</div>
 				</div>
 			</div>
 		</section>
 
-		<!--Développeur web-->
-				<section class="ct-bg-color2 ct-txt-color2">
-						<div class="container-fluid">
+		<!--footer-->
+		<footer>
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-4">Site web réalisé par Gabriel Daudin</div>
+					<div class="col-md-4">Intéressé par le code source ? c'est sur github</div>
+					<div class="col-md-4"></div>
+				</div>
+			</div>		
+		</footer>
 
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h2>Développeur web</h2>
-								</div>
-							</div>
+		<!-- Modal : C -->
+	    <div class="modal fade" id="modal_c" tabindex="-1" role="dialog" aria-hidden="true">
+	        <div class="modal-content">
+	            
+	            <div class="container">
+	            	
+	            	<div class="modal-body">
+		            	
+		            	<div class="row">
+		            		<div class="col-12 text-center">
+		            			<h2>RPG Like en C </h2>
+		            		</div>
+		            	</div>
 
-							<div class="row">
-								<div class="col-sm-12">
-									<p>
-										Html5, CSS3,AngularJS, JQuery, Bootstrap4, Knacss
-									</p>
-								</div>
-							</div>
-						</div>
-					</section>
+		                <div class="row">
+		                	<div class="col-md-4">
+		                		<img src="img/c.png" alt="rpg like en c" title="rpg like en c" class="img-responsive img-centered" />
+		                	</div>
+		                	<div class="col-md-8">
+		                		<p>
+		                			Réalisé en C il y a bien longtemps, le but était avant tout récréatif!
+		                			<br />
+		                			A partir d'un fichier texte décrivant une carte, le logiciel met en mémoire les objets composant le monde imaginaire. 
+		                			Les animations de l'environnement (eau qui coule etc...) et des personnages sont calculées en amont. Le déplacement du personnage principal est réalisé suivant les commandes entrés par le joueur, une carte cachée permet de gérer les collisions avec le décor.
+		                			L'interaction avec des pnj est également possible à travers une fenêtre de dialogue.
+		                			A la dernièr étape, le moteur graphique affiche le rendu du monde dans son état actuel (position des personnages, dialogue, ...).
+		                			Les graphismes sont tirés de tileset & sprites issus de rpg maker.
+		                			<br />
+		                			Réalisé en C, IDE codeblock, en s'appuyant notamment sur la librairie SDL.
+		                			<br /> Année de réalisation: 2014
+		                		</p>
+		                	</div>
+		                </div>
 
-				<!--Développeur logiciel-->
-				<section class="ct-bg-color2 ct-txt-color2">
-					<div class="container-fluid">
+		                <div class="row text-center">
+		                	<button type="button" class="btn btn-default" data-dismiss="modal">
+		                		<i class="fa fa-times"></i> Close
+		                	</button>
+		                </div>
+	            	</div>
+	                  
+	            </div>
+	        </div>
+		</div>
 
-						<div class="row">
-							<div class="col-sm-12 text-center">
-								<h2>Développeur logiciel</h2>
-							</div>
-						</div>
+		<!-- Modal : seame -->
+	    <div class="modal fade" id="modal_seame" tabindex="-1" role="dialog" aria-hidden="true">
+	        
+	        <div class="modal-content">
+	            
+	            <div class="container">
+	            	
+	            	<div class="modal-body">
+		            	
+		            	<div class="row">
+		            		<div class="col-12 text-center">
+		            			<h2>Application hybride pour les navigateurs </h2>
+		            		</div>
+		            	</div>
 
-						<div class="row">
-							<div class="col-sm-12">
-								<p>
-									C/C++, Java
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
+		                <div class="row">
+		                	<div class="col-md-4">
+		                		<img src="img/seame.png" alt="Application de navigation en mer" title="Application de navigation en mer" class="img-responsive img-centered" />
+		                	</div>
+		                	<div class="col-md-8">
+		                		<p>
+		                			Toujours dans une optique de loisir, naviguant en mer l'envie m'a pris de suivre mes voyages en direct et de revoir mon parcours depuis mon téléphone ou sur internet.<br />
+		                			L'application repére la position de l'utilisateur en depuis son GPS. L'enregistrement de la trace gps démarre automatiquement une fois en mer. Il est possible de noter des évènements particulier de la navigation : vent, pression, mouillage, photos ....
+		                			<br /> Des apis extérieures, appuyées par une base de donnée des ports français permet de définir à l'avance son trajet pour récupérer les données marées et météo du trajet.
+		                			<br />
+		                			Lorsque du réseau est disponible, les données de navigation sont transmises en temps réel sur un serveur distant pour permettre un accès aux données depuis différentes plateformes (application mobile / tablette / site web).
+		                			<br />
+		                			Application hybride fonctionnant sur Android & Ios, réalisée sur le framework Ionic (cordova + Angular Js).
+		                			<br />
+		                			Back end réalisée en php / Mysql.
+		                			<br /> Année de réalisation: 2015 - en test alpha
+		                		</p>
+		                	</div>
+		                </div>
 
-				<!--Projets-->
-				<section class="ct-bg-color2 ct-txt-color2">
-					<div class="container-fluid">
+		                <div class="row text-center">
+		                	<button type="button" class="btn btn-default" data-dismiss="modal">
+		                		<i class="fa fa-times"></i> Close
+		                	</button>
+		                </div>
+	            	</div>
+	                  
+	            </div>
+	        </div>
+		</div>
 
-						<div class="row">
-							<div class="col-sm-12 text-center">
-								<h2>Projets informatiques</h2>
-							</div>
-						</div>
+		<!-- Modal : geoviti -->
+	    <div class="modal fade" id="modal_geoviti" tabindex="-1" role="dialog" aria-hidden="true">
+	        
+	        <div class="modal-content">
+	            
+	            <div class="container">
+	            	
+	            	<div class="modal-body">
+		            	
+		            	<div class="row">
+		            		<div class="col-12 text-center">
+		            			<h2>Application de traçabilité viticole </h2>
+		            		</div>
+		            	</div>
 
-						<div class="row">
-							<div class="col-sm-12">
-								<p>
-									Seame, GeoViti, Jeux C/C++, java 3d
-								</p>
-							</div>
-						</div>
-					</div>
-				</section>
+		                <div class="row">
+		                	<div class="col-md-4">
+		                		<img src="img/grape.png" alt="Application de traçabilité viticole" title="Application de traçabilité viticole" class="img-responsive img-centered" />
+		                	</div>
+		                	<div class="col-md-8">
+		                		<p>
+		                			Réalisée à la demande d'un ami viticulteur, Geoviti est une application de gestion embarquée d'un vignoble.<br />
+		                			L'application s'appuie sur un site web de traçabilité contenant notamment les informations parcellaires, les opérations à réaliser au champ etc...
+		                			<br />
+		                			Le vigneron peut voir son parcellaire sous différents angles : cépages présent, rendement obtenu, photographies, etc...
+		                			Il est également possible de naviguer dans son vignoble à travers le temps, et ainsi de revoir les rendement des années précédentes par exemple.
+		                			<br />
+		                			L'application utilise le GPS pour suivre le déplacement de l'utilisateur et repérer sa position dans les parcelles. Si une opération culturale est en cours (ex: labour des vignes), l'application retransmet au serveur la date & l'heure,ainsi que les donneés sur la parcelle & l'opération réalisée. La traçabilité du vignoble se remplit ainsi en temps réel.
+		                			<br />
+		                			Application hybride fonctionnant sur Android & Ios, réalisée sur le framework Ionic (cordova + Angular Js).
+		                			<br />
+		                			Back end réalisée en php / Mysql.
+		                			<br /> Année de réalisation: 2016 - en développement
+		                		</p>
+		                	</div>
+		                </div>
 
-				<!--Ingénieur agronome-->
-				<section class="ct-bg-color2 ct-txt-color2">
-						<div class="container-fluid">
-
-							<div class="row">
-								<div class="col-sm-12 text-center">
-									<h2>Ingénieur agronome</h2>
-								</div>
-							</div>
-
-							<div class="row">
-								<div class="col-sm-12">
-									<p>
-										Diplômé en 2010, 5 ans d'expérience, gestion d'équipe
-									</p>
-								</div>
-							</div>
-						</div>
-					</section>
-
-				<!--Contact-->
-				<section class="ct-bg-color2 ct-txt-color2">
-								<div class="container-fluid">
-
-									<div class="row">
-										<div class="col-sm-12 text-center">
-											<h2>Me contacter</h2>
-										</div>
-									</div>
-
-									<div class="row">
-										<div class="col-sm-12">
-											<p>
-
-											</p>
-										</div>
-									</div>
-								</div>
-							</section>
-
+		                <div class="row text-center">
+		                	<button type="button" class="btn btn-default" data-dismiss="modal">
+		                		<i class="fa fa-times"></i> Close
+		                	</button>
+		                </div>
+	            	</div>
+	                  
+	            </div>
+	        </div>
 		</div>
 
 		<!-- inclusion js bootstrap -->
