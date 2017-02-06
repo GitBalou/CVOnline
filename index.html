@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="fr">
 	<head>
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1">
-    	<meta name="description" content="CV Gabriel Daudin">
-    	<meta name="author" content="Gabriel Daudin">
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="CV Gabriel Daudin">
+    <meta name="author" content="Gabriel Daudin">
 
 		<!-- boostrap css-->
-    	<link rel="stylesheet" href="lib/bootstrap/bootstrap-3.3.7.min.css" type="text/css">
+    <link rel="stylesheet" href="lib/bootstrap/bootstrap-3.3.7.min.css" type="text/css">
 
 		<!--fontawesome-->
 		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
-    	<!-- custom css -->
-    	<link href="style/style.css" rel="stylesheet">
+    <!-- custom css -->
+    <link href="style/style.css" rel="stylesheet">
 
 	</head>
 
 	<body id="page-top">
 
 		<!-- Navigation -->
-		<nav id="mainNav" class="navbar navbar-fixed-top">
+		<nav class="navbar navbar-fixed-top">
 			<div class="container">
 				<!-- brand & bouton toggle -->
 				<div class="navbar-header page-scroll">
@@ -34,16 +35,10 @@
 				<div class="collapse navbar-collapse" id="menu-responsive">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="page-scroll">
-							<a href="#portfolio">Web</a>
+							<a href="#presentation">Présentation</a>
 						</li>
 						<li class="page-scroll">
-							<a href="#about">Programmation</a>
-						</li>
-						<li class="page-scroll">
-							<a href="#contact">Projets</a>
-						</li>
-						<li class="page-scroll">
-							<a href="#contact">Parcours</a>
+							<a href="#parcours">Parcours</a>
 						</li>
 						<li class="page-scroll">
 							<a href="#contact">Contact</a>
@@ -53,35 +48,37 @@
 			</div>
 		</nav>
 
-		<!-- header-->
-		<header>
-			<div class="container">
-				
-				<div class="row">
-					<div class="col-md-6 text-center">
-						<img class="avatar rounded-circle vignette" src="img/moi.png" alt="Photo cv" title="Photo cv"/>
-					</div>
-					<div class="col-md-6">
-						<h1 class="title">Gabriel Daudin</h1>
-						<p class="subtitle">Ingénieur & développeur</p>
-						<p class="localisation">30 ans, habite à Nantes (44)</p>
-					</div>
+  	<!-- header fixe-->
+  	<header class="main_content" id="presentation">
+  		<div class="container">
+  			
+  			<div class="row">
+  				<div class="col-md-6 text-center">
+  					<img class="avatar rounded-circle" src="img/moi.png" alt="Photo cv" title="Photo cv"/>
+  				</div>
+  				<div class="col-md-6">
+  					<h1 class="txt-md-center">Gabriel Daudin</h1>
+  					<p class="subtitle txt-md-center">Ingénieur & développeur</p>
+  					<p class="localisation txt-md-center">30 ans, habite à Nantes (44)</p>
+  		
+            <p class="generique">
+  						Ingénieur de formation, parlant couramment anglais, je me reconverti depuis 2017 dans le développement logiciel.
+  					</p>
+  					<p class="generique">
+  						Autodidacte, j'ai débuté l'informatique il y a 10 ans et parcouru la programmation depuis le langage C jusq'aux langages web, en passant par le java ...
+  					</p>
 
-					<div class="col-md-6">
-		      			<p class="description">
-							Ingénieur de formation, je me reconverti depuis 2017 dans le développement logiciel.
-						</p>
-						<p class="description">
-							Autodidacte, j'ai débuté l'informatique il y a 10 ans et parcouru la programmation depuis le langage C jusq'aux langages web, en passant par le java ...
-						</p>
-					</div>
-				</div>
+            <p class="annonce">
+              Recherche un stage dans le développement web sur Nantes
+            </p>
+  				</div>
+  			</div>
 
-			</div>
-		</header>
+  		</div>
+  	</header>
 
-		<!--Timeline-->
-		<section class="calm">
+	 <!--Timeline-->
+	 <section class="timeline_content" id="parcours">
 			<div class="container">
 
 				<div class="row">
@@ -94,7 +91,7 @@
           						</div>
           						<div class="timeline-panel">
             						<div class="timeline-heading text-center">
-            							Langages web
+            						  <strong>Développement web</strong>
             						</div>
           							<div class="timeline-body">
           								<p class="technos text-center">
@@ -102,7 +99,7 @@
           									<img src="img/logo_php.png" alt="Langages HTML & CSS" title="Langages HTML & CSS"/>
           								</p>
           								<p>
-          									J'ai débuté en 2006 avec le langage HTML accompagné du CSS, rapidement suivi de la combinaison PHP / Mysql.
+          									J'ai débuté en 2006 avec le langage HTML accompagné du CSS, rapidement suivi de la combinaison PHP / Mysql afin de produire des sites pouvant proposer un contenu adapté à l'utilisateur : blog, forum, ...
           								</p>
           							</div>
           						</div>
@@ -114,7 +111,7 @@
           						</div>
           						<div class="timeline-panel">
             						<div class="timeline-heading text-center">
-            							Langage C / C++
+            							<strong>Langage C / C++</strong>
             						</div>
           							<div class="timeline-body">
           								Avec l'envie de comprendre plus en détail le fonctionnement d'un langage de programmation, je me suis tourné vers le C où j'ai pris beaucoup de plaisir.
@@ -135,7 +132,7 @@
 						      			</a>
 					      			</div>
             						<div class="timeline-heading text-center">
-            							mini RPG Like en C
+            							<strong>Mini RPG-Like en C</strong>
             						</div>
           							<div class="timeline-body">
           								<p>
@@ -154,7 +151,7 @@
           						</div>
           						<div class="timeline-panel">
             						<div class="timeline-heading text-center">
-            							Ingénieur agronome
+            							<strong>Ingénieur agronome</strong>
               						</div>
           							<div class="timeline-body">
           								<p>
@@ -170,7 +167,7 @@
           						</div>
           						<div class="timeline-panel">
             						<div class="timeline-heading text-center">
-            							Langage Java
+            							<strong>Langage Java</strong>
             						</div>
           							<div class="timeline-body">
           								<p class="technos text-center">
@@ -189,38 +186,22 @@
           						</div>
           						<div class="timeline-panel">
             						<div class="timeline-heading text-center">
-            							Framework JQuery
+            							<strong>Responsive design</strong>
             						</div>
 
           							<div class="timeline-body">
           								<p class="technos text-center">
           									<img src="img/logo_jquery.png" alt="Framework JQuery" title="Framework JQuery" /> 
+          									<img src="img/logo_bootstrap.png" alt="Framework bootstrap" title="Framework bootstrap" />
           								</p>
           								<p>
           									A l'occasion d'un projet commun, un ami m'a fait découvrir Jquery ainsi que les requêtes ajax, la voie vers des applications modernes s'ouvrait devant moi.
+          									J'ai enchainé sur le framework bootstrap et la production "mobile first", pour des sites web s'adaptant aux différentes plateformes de navigation.
           								</p>
           							</div>
             						
           						</div>
         					</li>
-        					<!--bootstrap-->
-        					<li>
-          						<div class="timeline-badge info">
-          							2013
-          						</div>
-          						<div class="timeline-panel">
-          							<div class="timeline-heading text-center">
-            							Framework Bootstrap
-            						</div>
-          							<div class="timeline-body">
-          								<p class="technos text-center">
-          									<img src="img/logo_bootstrap.png" alt="Framework bootstrap" title="Framework bootstrap" />
-          								</p>
-          								<p>
-          									Les framework de mise en page ont suivi tout naturellement, afin de moderniser la présentation de mes réalisations et d'entrer dans le responsive design.
-          								</p>
-          							</div>
-          						</div>
         					</li>
         					<!--angular-->
         					<li>
@@ -229,14 +210,16 @@
           						</div>
           						<div class="timeline-panel">
             						<div class="timeline-heading text-center">
-            							Framework Angular Js
+            							<strong>Développement d'application mobile hybride</strong>
             						</div>
           							<div class="timeline-body">
           								<p class="technos text-center">
+          									<img src="img/logo_ionic.png" alt="Framework Ionic" title="Framework Ionic"/>
           									<img src="img/logo_angular.png" alt="Framework angular JS" title="Framework angular JS"/>
+          									<img src="img/logo_cordova.png" alt="Framework cordova" title="Framework cordova" />
           								</p>
           								<p>
-          									Avec l'envie de développer une application embarquée sur téléphone mobile, j'ai découvert ionic et le framework Angular. 
+          									Avec l'envie de développer une application embarquée sur téléphone mobile, j'ai découvert Ionic, qui mélange les framework Angular et cordova (phonegap). 
           								</p>
           							</div>
           						</div>
@@ -252,10 +235,13 @@
 						      				<i class="fa fa-search-plus fa-3x"></i>
 						      			</a>
 					      			</div>
-          							<div class="timeline-heading">
-          								Application smartphone Sea.me
+          							<div class="timeline-heading text-center">
+          								<strong>Application smartphone Sea.me</strong>
           							</div>
           							<div class="timeline-body">
+          								<p>
+          									Application directe de l'apprentissage de Ionic, avant tout pour mon loisir de programmeur, cette application enregistre automatiquement les navigations en mer.
+          								</p>
           								<p class="more">
           									Cliquez pour en savoir plus
           								</p>
@@ -273,10 +259,13 @@
 						      				<i class="fa fa-search-plus fa-3x"></i>
 						      			</a>
 					      			</div>
-          							<div class="timeline-heading">
-          								Application smartphone Geoviti
+          							<div class="timeline-heading text-center">
+          								<strong>Application smartphone Geoviti</strong>
           							</div>
           							<div class="timeline-body">
+          								<p>
+          									Dérivée de mon application sea.me, cette application a une visée plus professionnelle. Il s'agit d'embarquer la gestion d'un vignoble sur différentes plateformes : site web / application mobile.
+          								</p>
           								<p class="more">
           									Cliquez pour en savoir plus
           								</p>
@@ -295,8 +284,8 @@
           							<div class="timeline-body">
           								<p class="technos text-center">
           									<img src="img/logo_knackcss.png" alt="Framework Knackcss" title="Framework Knackcss" />
-          									<img src="img/logo_symfony.png" alt="Framework Knackcss" title="Framework Knackcss" />
-          									<img src="img/logo_nodejs.svg" alt="Framework Knackcss" title="Framework Knackcss" />
+          									<img src="img/logo_symfony.png" alt="Framework symfony" title="Framework symfony" />
+          									<img src="img/logo_nodejs.svg" alt="Framework node js" title="Framework node js" />
           								</p>
           								<p>
           									A l'occasion de ma reconversion, cette formation me permet d'apprendre le travail d'équipe en informatique, de conforter mes bases et d'apprendre de nouveaux frameworks.
@@ -309,216 +298,233 @@
 				
 				</div>
 			</div>
-		</section>
+	 </section>
 
-		<!--Complément-->
-		<section class="stable text-larger">
+	 <!--En savoir plus-->
+	 <section class="main_content" id="contact">
 			<div class="container">
 
 				<div class="row">
-					<div class="col-sm-12 text-center">
-						<h2>Et aussi...</h2>
+					<div class="col-12 text-center">
+						<h2>En savoir plus</h2>
 					</div>
 				</div>
 
-				<div class="row">
-					<div class="col-md-6 text-center">
-						<h3>Langues</h3>
-						<p>
-							Anglais courant
+				<div class="row text-center">
+					<div class="col-md-4">
+						<h3><i class="fa fa-linkedin-square"></i></h3>
+						
+						<p class="generique">
+							<a href="https://fr.linkedin.com/in/gabriel-daudin-2223217b">
+								Profil Linkedin
+							</a>
 						</p>
 					</div>
-					<div class="col-md-6 text-center">
-						<h3>En savoir plus sur moi</h3>
-						<p>
-							Profil linkedin : <a href="https://fr.linkedin.com/in/gabriel-daudin-2223217b">Linkedin</a>
+					<div class="col-md-4">
+						<h3><i class="fa fa-file-pdf-o"></i></h3>
+						
+						<p class="generique">
+							<a href="">
+								CV détaillé en pdf
+							</a>
 						</p>
-						<p>
-							CV complet : <a href="">Lien cv</a>
+					</div>
+					<div class="col-md-4">
+						<h3><i class="fa fa-envelope"></i></h3>
+						
+						<p class="generique">
+							<a href="mailto:gabriel.daudin@nantes.imie.fr">
+								gabriel.daudin [at] nantes.imie.fr
+							</a>
 						</p>
 					</div>
 				</div>
 			</div>
-		</section>
+	 </section>
 
-		<!--Contact-->
-		<section class="text-larger">
-			<div class="container">
-
-				<div class="row">
-					<div class="col-sm-12 text-center">
-						<h2>Me contacter</h2>
-					</div>
-				</div>
-
-				<div class="row">
-					<div class="col-md-6 text-center">
-						<a href="mailto:gabriel.daudin@nantes.imie.fr">
-							<i class="fa fa-envelope icone-large"></i>
-						</a>
-					</div>
-					<div class="col-md-6">
-						<p>
-							Si vous êtes intéressé, n'hésitez pas à me contacter par mail :
-							<a href="mailto:gabriel.daudin@nantes.imie.fr">gabriel.daudin@nantes.imie.fr</a>
-						</p>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<!--footer-->
-		<footer>
+	 <!--footer-->
+	 <footer>
 			<div class="container">
 				<div class="row text-center">
-					<div class="col-md-4">Site web réalisé par Gabriel Daudin</div>
-					<div class="col-md-4">Intéressé par le code source ? c'est sur github</div>
-					<div class="col-md-4"></div>
+					<div class="col-md-6">Site web réalisé par Gabriel Daudin</div>
+					<div class="col-md-6">Intéressé par le code source ? c'est sur <a href="https://github.com/GitBalou/CVOnline">github</a></div>
 				</div>
 			</div>		
-		</footer>
+	 </footer>
 
 		<!-- Modal : C -->
-	    <div class="modal fade" id="modal_c" tabindex="-1" role="dialog" aria-hidden="true">
+	 <div class="modal fade" id="modal_c" tabindex="-1" role="dialog" aria-hidden="true">
 	        <div class="modal-content">
 	            
 	            <div class="container">
 	            	
 	            	<div class="modal-body">
-		            	
-		            	<div class="row">
-		            		<div class="col-12 text-center">
-		            			<h2>RPG Like en C </h2>
-		            		</div>
-		            	</div>
+		            	 
+                  <div class="row">
+                    <div class="col-12">
+                      <h2 class="text-center">Mini RPG</h2>
+                    </div>
+                  </div>
 
-		                <div class="row">
-		                	<div class="col-md-4">
-		                		<img src="img/c.png" alt="rpg like en c" title="rpg like en c" class="img-responsive img-centered" />
-		                	</div>
-		                	<div class="col-md-8">
-		                		<p>
-		                			Réalisé en C il y a bien longtemps, le but était avant tout récréatif!
-		                			<br />
-		                			A partir d'un fichier texte décrivant une carte, le logiciel met en mémoire les objets composant le monde imaginaire. 
-		                			Les animations de l'environnement (eau qui coule etc...) et des personnages sont calculées en amont. Le déplacement du personnage principal est réalisé suivant les commandes entrés par le joueur, une carte cachée permet de gérer les collisions avec le décor.
-		                			L'interaction avec des pnj est également possible à travers une fenêtre de dialogue.
-		                			A la dernièr étape, le moteur graphique affiche le rendu du monde dans son état actuel (position des personnages, dialogue, ...).
-		                			Les graphismes sont tirés de tileset & sprites issus de rpg maker.
-		                			<br />
-		                			Réalisé en C, IDE codeblock, en s'appuyant notamment sur la librairie SDL.
-		                			<br /> Année de réalisation: 2014
-		                		</p>
-		                	</div>
+		              <div class="row">
+		                <div class="col-md-4">
+		                	<img src="img/c.png" alt="rpg like en c" title="rpg like en c" class="img-responsive image-modal block-md-center" />
 		                </div>
+		                <div class="col-md-8">
+	                		<p>
+	                			Réalisé en C il y a bien longtemps, le but était avant tout récréatif!
+	                			<ul>
+	                				<li>
+	                					A partir d'un fichier texte décrivant une carte, le logiciel met en mémoire les objets composant un monde imaginaire. 
+	                				</li>
+	                				<li>
+	                					Un service dédié gére les animations de l'environnement (eau qui coule etc...) et des personnages. Il déplace également les PNJ selon un trajet prédéfini dans un autre fichier texte.
+	                				</li>
+	                				<li>
+	                					Le déplacement du personnage principal est réalisé suivant les commandes entrées par le joueur, une carte "cachée" ("solids") permet de gérer les collisions avec le décor. <br/>
+	                					L'interaction avec des PNJ est également possible à travers des dialogues.
+	                				</li>
+	                				<li>
+	                					Un moteur graphique simple affiche le rendu du monde dans son état actuel (positions des personnages, dialogue éventuel, ...).
+	                				</li>
+	                				<li>
+	                				Les graphismes sont tirés de tileset & sprites issus de rpg 	maker, trouvés à l'époque sur internet.
+	                				</li>
+	                			</ul>
 
-		                <div class="row text-center">
-		                	<button type="button" class="btn btn-default" data-dismiss="modal">
-		                		<i class="fa fa-times"></i> Close
-		                	</button>
+	                			Réalisé en <strong>C</strong> sous l'IDE codeblock, en s'appuyant notamment sur la librairie <strong>SDL</strong>.
+	                			<br />Année de réalisation: 2014
+	                		</p>
+	                		<p class="text-center">
+	                			<button type="button" class="btn btn-default" data-dismiss="modal">
+	                				<i class="fa fa-times"></i> Fermer
+	                			</button>
+	                		</p>
+		                	</div>
 		                </div>
 	            	</div>
 	                  
 	            </div>
 	        </div>
-		</div>
+	 </div>
 
-		<!-- Modal : seame -->
-	    <div class="modal fade" id="modal_seame" tabindex="-1" role="dialog" aria-hidden="true">
-	        
-	        <div class="modal-content">
-	            
-	            <div class="container">
-	            	
-	            	<div class="modal-body">
-		            	
-		            	<div class="row">
-		            		<div class="col-12 text-center">
-		            			<h2>Application hybride pour les navigateurs </h2>
-		            		</div>
-		            	</div>
+	 <!-- Modal : seame -->
+	 <div class="modal fade" id="modal_seame" tabindex="-1" role="dialog" aria-hidden="true">     
+      <div class="modal-content">
+          
+          <div class="container">
+          	
+          	<div class="modal-body">
 
-		                <div class="row">
-		                	<div class="col-md-4">
-		                		<img src="img/seame.png" alt="Application de navigation en mer" title="Application de navigation en mer" class="img-responsive img-centered" />
-		                	</div>
-		                	<div class="col-md-8">
-		                		<p>
-		                			Toujours dans une optique de loisir, naviguant en mer l'envie m'a pris de suivre mes voyages en direct et de revoir mon parcours depuis mon téléphone ou sur internet.<br />
-		                			L'application repére la position de l'utilisateur en depuis son GPS. L'enregistrement de la trace gps démarre automatiquement une fois en mer. Il est possible de noter des évènements particulier de la navigation : vent, pression, mouillage, photos ....
-		                			<br /> Des apis extérieures, appuyées par une base de donnée des ports français permet de définir à l'avance son trajet pour récupérer les données marées et météo du trajet.
-		                			<br />
-		                			Lorsque du réseau est disponible, les données de navigation sont transmises en temps réel sur un serveur distant pour permettre un accès aux données depuis différentes plateformes (application mobile / tablette / site web).
-		                			<br />
-		                			Application hybride fonctionnant sur Android & Ios, réalisée sur le framework Ionic (cordova + Angular Js).
-		                			<br />
-		                			Back end réalisée en php / Mysql.
-		                			<br /> Année de réalisation: 2015 - en test alpha
-		                		</p>
-		                	</div>
-		                </div>
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="text-center">Sea.me</h2>
+                </div>
+              </div>
 
-		                <div class="row text-center">
-		                	<button type="button" class="btn btn-default" data-dismiss="modal">
-		                		<i class="fa fa-times"></i> Close
-		                	</button>
-		                </div>
-	            	</div>
-	                  
-	            </div>
-	        </div>
-		</div>
+              <div class="row">
+              	<div class="col-md-4">
+              		<img src="img/seame.png" alt="Application de navigation en mer" title="Application de navigation en mer" class="img-responsive image-modal block-md-center" />
+              	</div>
+              	<div class="col-md-8">
+              	
+              		<p>
+              			Naviguant régulièrement en mer l'envie m'a pris d'enregistrer mes voyages en direct afin de pouvoir revivre mes navigations et des les partager.<br />
+              			<ul>
+              				<li>
+              					L'application repére la position de l'utilisateur via le GPS. L'enregistrement de la trace gps démarre automatiquement une fois en mer.
+              				</li>
+              				<li>
+              					Il est possible de noter des évènements particulier de la navigation : vent, pression, mouillage, photos .... Ces évènements sont géoréféréncés et représentés sur la carte.
+              				</li>
+              				<li>
+              					Il est possible de définir un itinéraire à l'avance, et ainsi de récupérer les marées aux ports de départ et d'arrivée, ainsi que la météo du parcours. Les données sont récupérées via des API gratuites sur le web (open weather map ...)
+              				</li>
+              				<li>
+              					Lorsque du réseau GSM est disponible, les données de navigation sont transmises en temps réel sur un serveur distant pour permettre un accès aux données depuis différentes plateformes (application mobile / tablette / site web).
+              				</li>
+              			</ul>
+              			Application mobile hybride fonctionnant sur Android & Ios. <br />
+              			Réalisée sur le framework <strong>Ionic</strong> :<strong>cordova (Phonegap)</strong> + <strong>Angular Js</strong>.
+              			<br />
+              			Partie serveur réalisée en <strong>php / Mysql</strong>.
+              			<br /> Année de réalisation: 2015. <br />
+              			Actuellement en test alpha sous Android
+              		</p>
+              		<p class="text-center">
+              			<button type="button" class="btn btn-default" data-dismiss="modal">
+              				<i class="fa fa-times"></i> Fermer
+              			</button>
+              		</p>
+              	</div>
+              </div>
+          	</div>
+                
+          </div>
+      </div>
+	 </div>
 
-		<!-- Modal : geoviti -->
-	    <div class="modal fade" id="modal_geoviti" tabindex="-1" role="dialog" aria-hidden="true">
-	        
-	        <div class="modal-content">
-	            
-	            <div class="container">
-	            	
-	            	<div class="modal-body">
-		            	
-		            	<div class="row">
-		            		<div class="col-12 text-center">
-		            			<h2>Application de traçabilité viticole </h2>
-		            		</div>
-		            	</div>
+	 <!-- Modal : geoviti -->
+	 <div class="modal fade" id="modal_geoviti" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="modal-content">
+          
+          <div class="container">
+          	
+          	<div class="modal-body">
+              
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="text-center">Geoviti</h2>
+                </div>
+              </div>
 
-		                <div class="row">
-		                	<div class="col-md-4">
-		                		<img src="img/grape.png" alt="Application de traçabilité viticole" title="Application de traçabilité viticole" class="img-responsive img-centered" />
-		                	</div>
-		                	<div class="col-md-8">
-		                		<p>
-		                			Réalisée à la demande d'un ami viticulteur, Geoviti est une application de gestion embarquée d'un vignoble.<br />
-		                			L'application s'appuie sur un site web de traçabilité contenant notamment les informations parcellaires, les opérations à réaliser au champ etc...
-		                			<br />
-		                			Le vigneron peut voir son parcellaire sous différents angles : cépages présent, rendement obtenu, photographies, etc...
-		                			Il est également possible de naviguer dans son vignoble à travers le temps, et ainsi de revoir les rendement des années précédentes par exemple.
-		                			<br />
-		                			L'application utilise le GPS pour suivre le déplacement de l'utilisateur et repérer sa position dans les parcelles. Si une opération culturale est en cours (ex: labour des vignes), l'application retransmet au serveur la date & l'heure,ainsi que les donneés sur la parcelle & l'opération réalisée. La traçabilité du vignoble se remplit ainsi en temps réel.
-		                			<br />
-		                			Application hybride fonctionnant sur Android & Ios, réalisée sur le framework Ionic (cordova + Angular Js).
-		                			<br />
-		                			Back end réalisée en php / Mysql.
-		                			<br /> Année de réalisation: 2016 - en développement
-		                		</p>
-		                	</div>
-		                </div>
-
-		                <div class="row text-center">
-		                	<button type="button" class="btn btn-default" data-dismiss="modal">
-		                		<i class="fa fa-times"></i> Close
-		                	</button>
-		                </div>
-	            	</div>
-	                  
-	            </div>
-	        </div>
-		</div>
+              <div class="row">
+              	<div class="col-md-4">
+              		<img src="img/grape.png" alt="Application de traçabilité viticole" title="Application de traçabilité viticole" class="img-responsive image-modal block-md-center" />
+              	</div>
+              	<div class="col-md-8">
+              		
+              		<p>
+              			Réalisée à la demande d'un ami viticulteur, Geoviti est une application de gestion embarquée d'un vignoble.
+              			<ul>
+              				<li>
+              					L'application s'appuie sur une base de donnée contenant notamment les informations parcellaires, les opérations à réaliser au champ etc...
+              				</li>
+              				<li>
+              					Le vigneron peut voir son parcellaire sous différents angles : cépages présent, rendement obtenu, photographies, etc...
+              				</li>
+              				<li>
+              					Il est également possible de naviguer dans son vignoble à travers le temps, et ainsi de revoir les rendement 
+              					des années précédentes par exemple.
+              				</li>
+              				<li>
+              					L'application utilise le GPS pour suivre le déplacement de l'utilisateur et repérer sa position dans les parcelles. Si une opération culturale est en cours (ex: labour des vignes), l'application retransmet au serveur la date et l'heure,ainsi que les donneés sur la parcelle et l'opération réalisée. La traçabilité du vignoble se remplie ainsi en temps réel.
+              				</li>
+              			</ul>
+              			Application mobile hybride fonctionnant sur Android et Ios. <br />
+              			Réalisée sur le framework <strong>Ionic</strong> :<strong>cordova (Phonegap)</strong> + <strong>Angular Js</strong>.
+              			<br />
+              			Partie serveur réalisée en <strong>php / Mysql</strong>.
+              			<br /> Année de réalisation: 2016. <br />
+              			Actuellement en développement.
+              		</p>
+              		<p class="text-center">
+              			<button type="button" class="btn btn-default" data-dismiss="modal">
+              				<i class="fa fa-times"></i> Fermer
+              			</button>
+              		</p>
+              	</div>
+              </div>
+          	</div>
+                
+          </div>
+      </div>
+	 </div>
 
 		<!-- inclusion js bootstrap -->
 		<script src="lib/jquery/jquery-1.12.4.min.js"></script>
 		<script src="lib/bootstrap/bootstrap-3.3.7.min.js"></script>
+    <!--js perso-->
+    <script src="js/cvonline.js"></script>
 	</body>
 </html>
