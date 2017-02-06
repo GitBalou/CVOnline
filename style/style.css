@@ -181,6 +181,24 @@ nav a {
   font-size: 1.8em;
 }
 
+@media only screen and (max-width : 992px) {
+  .main_content h1 {
+    font-size: 2em;
+  }
+
+  .main_content h2 {
+    font-size: 1.5em;
+  }
+
+  .main_content h3 {
+    font-size: 1em;
+  }
+
+  .main_content p {
+    font-size: 1em;
+  }
+}
+
 .timeline_content {
   background-color: #eee;
 }
@@ -200,6 +218,17 @@ nav a {
   margin-top: 20px;
   margin-left: -150px;
   color: #cf6766;
+}
+
+@media only screen and (max-width : 992px) {
+  .subtitle {
+    font-size: 1.5em !important;
+  }
+
+  .localisation {
+    font-size: 1.2em !important;
+  }
+
 }
 
 /*footer */
