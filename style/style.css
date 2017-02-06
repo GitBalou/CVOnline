@@ -227,6 +227,10 @@ nav a {
     font-size: 1.2em !important;
   }
 
+  .annonce {
+    text-align: center;
+    font-weight: bold;
+  }
 }
 
 /*footer */
