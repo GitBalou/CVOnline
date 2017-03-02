@@ -7,25 +7,25 @@ module.exports = function(grunt) {
         useminPrepare: {
             html: 'index.html',
             options: {
-                dest: 'dist'
+                dest: 'docs'
             }
         },
         usemin:{
-            html:['dist/index.html']
+            html:['docs/index.html']
         },
         copy:{
             html: {
-                src: './index.html', dest: 'dist/index.html'
+                src: './index.html', dest: 'docs/index.html'
             },
             img: {
-                src: 'img/*', dest:'dist/'
+                src: 'img/*', dest:'docs/'
             },
             files: {
-                src: 'dl/*', dest:'dist/'
+                src: 'dl/*', dest:'docs/'
             }
         },
         clean : {
-            before: ['.tmp','dist/*'],
+            before: ['.tmp','docs/*'],
             after: ['.tmp']
         }
     });
