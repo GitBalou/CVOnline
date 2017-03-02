@@ -2,8 +2,8 @@
   "name": "cvonline",
   "version": "1.0.0",
   "description": "Cv en ligne",
-  "license" : "MIT",
-  "repository" : "https://github.com/GitBalou/CVOnline",
+  "license": "MIT",
+  "repository": "https://github.com/GitBalou/CVOnline",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
@@ -11,6 +11,7 @@
     "grunt-contrib-copy": "^1.0.0",
     "grunt-contrib-cssmin": "^2.0.0",
     "grunt-contrib-uglify": "^2.2.0",
-    "grunt-usemin": "^3.1.1"
+    "grunt-usemin": "^3.1.1",
+    "load-grunt-tasks": "^3.5.2"
   }
 }
