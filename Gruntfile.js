@@ -1,18 +1,22 @@
 module.exports = function(grunt) {
-    // load grunt tasks based on dependencies in package.json
+
+    // Chargement de toutes les tâches contenues dans le package.json
     require('load-grunt-tasks')(grunt);
 
     grunt.config.init({
 
+        // useminPrepare : pour préparer les fichiers à concaténer / minifier dans le index.html
         useminPrepare: {
             html: 'index.html',
             options: {
                 dest: 'docs'
             }
         },
+
         usemin:{
             html:['docs/index.html']
         },
+
         copy:{
             html: {
                 src: './index.html', dest: 'docs/index.html'
@@ -24,12 +28,14 @@ module.exports = function(grunt) {
                 src: 'dl/*', dest:'docs/'
             }
         },
+
         clean : {
             before: ['.tmp','docs/*'],
             after: ['.tmp']
         }
     });
 
+    // Build
     grunt.registerTask('build',[
         'clean:before',
         'copy:html',
