@@ -17,8 +17,11 @@ module.exports = function(grunt) {
             html: {
                 src: './index.html', dest: 'dist/index.html'
             },
-            files: {
+            img: {
                 src: 'img/*', dest:'dist/'
+            },
+            files: {
+                src: 'dl/*', dest:'dist/'
             }
         },
         clean : {
@@ -31,6 +34,7 @@ module.exports = function(grunt) {
         'clean:before',
         'copy:html',
         'copy:files',
+        'copy:img',
         'useminPrepare',
         'concat',
         'uglify',
