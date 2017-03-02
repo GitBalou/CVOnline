@@ -4,4 +4,6 @@ License MIT
 
 `npm install` to install dev depedencies
 
-`grunt build` to generate production files
+`bower install` to download js & css libraries
+
+`grunt build` to generate web site in /docs
