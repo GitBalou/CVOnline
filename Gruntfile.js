@@ -7,7 +7,7 @@ module.exports = function(grunt) {
 
         // useminPrepare : pour préparer les fichiers à concaténer / minifier dans le index.html
         useminPrepare: {
-            html: 'index.html',
+            html: 'www/index.html',
             options: {
                 dest: 'docs'
             }
@@ -19,13 +19,17 @@ module.exports = function(grunt) {
 
         copy:{
             html: {
-                src: './index.html', dest: 'docs/index.html'
+                src: 'www/index.html', dest: 'docs/index.html'
             },
             img: {
-                src: 'img/*', dest:'docs/'
+                expand : true,
+                flatten : true,
+                src: 'www/img/*', dest:'docs/img/'
             },
             files: {
-                src: 'dl/*', dest:'docs/'
+                expand : true,
+                flatten : true,
+                src: 'www/dl/*', dest:'docs/dl/'
             },
 
             // les polices fontawesome ne sont pas importées automatiquement lors du build css
