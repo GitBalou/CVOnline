@@ -1,7 +1,6 @@
-# Projet CVONline
+# CVOnline source code
 
-
-To run this project you need:
+To build this project you need:
 - `grunt` to build website
 - `bower` to manage web packages
 - `nodeJs` as grunt and bower dependencies
