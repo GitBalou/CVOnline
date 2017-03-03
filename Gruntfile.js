@@ -32,11 +32,10 @@ module.exports = function(grunt) {
                 src: 'www/dl/*', dest:'docs/dl/'
             },
 
-            // les polices fontawesome ne sont pas importées automatiquement lors du build css
             fonts : {
                 expand : true,
                 flatten : true,
-                src: 'bower_components/font-awesome/fonts/*', dest:'docs/fonts/'
+                src: 'www/libs/font-awesome/fonts/*', dest:'docs/fonts'
             }
         },
 

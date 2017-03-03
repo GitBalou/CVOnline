@@ -6,5 +6,24 @@
     "jquery": "^3.1.1",
     "bootstrap": "~3.3.7",
     "font-awesome": "^4.7.0"
+  },
+  "install" : {
+    "base" : "www/libs",
+    "path" : {
+      "js": "{name}/js",
+      "css": "{name}/css",
+      "eot": "{name}/fonts",
+      "svg": "{name}/fonts",
+      "ttf": "{name}/fonts",
+      "woff": "{name}/fonts"
+    },
+    "sources": {
+      "bootstrap" : "bower_components/bootstrap/dist/css/bootstrap.min.css",
+      "jquery" : "bower_components/jquery/dist/jquery.min.js",
+      "font-awesome" : [
+        "bower_components/font-awesome/css/font-awesome.min.css",
+        "bower_components/font-awesome/fonts/*.*"
+      ]
+    }
   }
 }
