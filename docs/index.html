@@ -6,7 +6,16 @@
     <meta name="description" content="CV Gabriel Daudin">
     <meta name="author" content="Gabriel Daudin">
 
-    <link rel="stylesheet" href="css/style.min.css">
+    <!-- build:css css/style.min.css -->
+        <!-- boostrap css-->
+        <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css" type="text/css">
+
+        <!--fontawesome-->
+        <link href="libs/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+        <!-- custom css -->
+        <link href="style/style.css" rel="stylesheet">
+    <!--endbuild-->
 </head>
 
 <body id="page-top">
@@ -55,10 +64,11 @@
                 <p class="localisation txt-md-center">31 ans, habite à Nantes (44)</p>
 
                 <p class="annonce">
-                    Recherche un stage dans le développement web sur Nantes
+                    Recherche un emploi dans le développement web sur Nantes
                 </p>
 
                 <p>
+                    Diplômé développeur logiciel orienté javascript, j'approfondis actuellement ma pratique des frameworks tels qu'Angular, react, redux.
                     Ingénieur de formation, parlant couramment anglais, je me reconvertis depuis 2015 dans le développement logiciel.
                 </p>
                 <p>
@@ -75,6 +85,34 @@
         <div class="row">
             <div class="col-12">
                 <ul class="timeline">
+                    <!--Projet react native-->
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge danger">
+                            2017
+                        </div>
+                        <div class="timeline-panel projet">
+                            <div class="zoom">
+                                <a href="#modal_react_native" data-toggle="modal">
+                                    <i class="fa fa-search-plus fa-3x"></i>
+                                </a>
+                            </div>
+                            <div class="timeline-heading text-center">
+                                <strong>Angular, React, Node</strong>
+                                <p class="technos text-center">
+                                    <img src="https://cdn.worldvectorlogo.com/logos/react.svg" alt="Framework React js" title="Framework React js" />
+                                    <img src="https://angular.io/assets/images/logos/angular/angular.png" alt="Framework Angular 4" title="Framework Angular 4" />
+                                </p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    En plus de mon stage de développeur logiciel (api REST sous Node Js & client sous Angular 4), je travaille sur différents projets personnels dont cet application hybride basée sur React native + Redux.
+                                </p>
+                                <p class="more">
+                                    Cliquez pour en savoir plus
+                                </p>
+                            </div>
+                        </div>
+                    </li>
                     <!--IMIE-->
                     <li>
                         <div class="timeline-badge success">
@@ -513,7 +551,53 @@
     </div>
 </div>
 
-<script src="js/prod.js"></script>
+<!-- Modal : react native -->
+<div class="modal fade" id="modal_react_native" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+
+        <div class="container">
+
+            <div class="modal-body">
+
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="text-center">Sea.me sous react native</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="http://www.trentiums.com/images/react-native/React-Native.png" alt="Sea.me sous react native" title="Sea.me sous react native" class="img-responsive image-modal block-md-center" />
+                    </div>
+                    <div class="col-md-8">
+
+                        <p>
+                            Dans le but de mettre à jour l'application Sea.me, je travaille actuellement sur son passage sous la technologie React native
+                        </p>
+           
+                        <p>
+                            Application mobile hybride fonctionnant sur Android et Ios. <br />
+                            Réalisée sur le framework <strong>React native</strong> & <strong>Redux</strong>.
+                            Le code source est disponible <a href="https://github.com/GitBalou/nav-react">ici</a>
+                        </p>
+                        <p class="text-center">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">
+                                <i class="fa fa-times"></i> Fermer
+                            </button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+<!-- build:js js/prod.js -->
+<script src="../bower_components/jquery/dist/jquery.min.js"></script>
+<script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="js/cvonline.js"></script>
+<!-- endbuild -->
 
 </body>
 </html>
